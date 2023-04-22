@@ -17,10 +17,10 @@ function IndexOne() {
         <main>
           <OneSlider/>
           <Brand/>
-          <GamesArea/>
+          {/* <GamesArea/> */}
           {/* <AboutUsArea/> */}
           {/* <GamesManage/> */}
-          <FeaturesArea/>
+          {/* <FeaturesArea/> */}
           <ShopArea/>
         </main>
         <Footer/>

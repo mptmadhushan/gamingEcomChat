@@ -95,7 +95,7 @@ function HeaderOne() {
                         <p>
                           <span>|</span>
                           <i className="far fa-envelope" />
-                          <Link to="/contact">info@gecoinfo.com</Link>
+                          <Link to="/contact">info@gameinfo.com</Link>
                         </p>
                       </div>
                     </li>
@@ -125,7 +125,7 @@ function HeaderOne() {
                 <nav>
                   <div className="logo">
                     <Link to="/index-2">
-                      <img src="assets/img/logo/logo.png" alt="Logo" />
+                      {/* <img src="assets/img/logo/logo.png" alt="Logo" /> */}
                     </Link>
                   </div>
 
@@ -157,7 +157,8 @@ function HeaderOne() {
                         <NavLink to="/community">Community</NavLink>
                       </li> */}
                       <li>
-                        <NavLink to="/shop">Store</NavLink>
+                        <NavLink to="/index-2">Store</NavLink>
+                        {/* <NavLink to="/shop">Store</NavLink> */}
                       </li>
                       {/* <li className=" menu-item-has-children">
                         <NavLink to="/blogs">Blogs</NavLink>
@@ -171,7 +172,8 @@ function HeaderOne() {
                         </ul>
                       </li> */}
                       <li>
-                        <NavLink to="/contact">contact</NavLink>
+                        <NavLink to="/index-2">contact</NavLink>
+                        {/* <NavLink to="/contact">contact</NavLink> */}
                       </li>
                     </ul>
                   </div>
