@@ -13,7 +13,6 @@ function OneSlider() {
                 <h6 className="wow fadeInDown" data-wow-delay=".2s">islands</h6>
                 <h2 className="tlt fix" data-in-effect="fadeInLeft">GAMERS <span>CHOICE</span></h2>
                 <p className="wow fadeInUp" data-wow-delay="2s">Find gaming equipments.</p>
-                <a href="/#" className="btn wow fadeInUp" data-wow-delay="2.2s">READ MORE</a>
               </div>
             </div>
           </div>

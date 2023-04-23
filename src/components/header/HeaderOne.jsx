@@ -67,22 +67,22 @@ function HeaderOne() {
                 <div className="header-social">
                   <ul>
                     <li>
-                      <a href="/index-2">
+                      <a href="/">
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                      <a href="/index-2">
+                      <a href="/">
                         <i className="fab fa-twitter" />
                       </a>
                     </li>
                     <li>
-                      <a href="/index-2">
+                      <a href="/">
                         <i className="fab fa-pinterest-p" />
                       </a>
                     </li>
                     <li>
-                      <a href="/index-2">
+                      <a href="/">
                         <i className="fab fa-linkedin-in" />
                       </a>
                     </li>
@@ -101,7 +101,7 @@ function HeaderOne() {
                     </li>
                     <li>
                       <div className="header-user-login">
-                        <a href="/index-2">
+                        <a href="/">
                           <i className="fas fa-user" />
                           Login
                         </a>
@@ -124,7 +124,7 @@ function HeaderOne() {
               <div className="main-menu">
                 <nav>
                   <div className="logo">
-                    <Link to="/index-2">
+                    <Link to="/">
                       {/* <img src="assets/img/logo/logo.png" alt="Logo" /> */}
                     </Link>
                   </div>
@@ -132,10 +132,10 @@ function HeaderOne() {
                   <div className="navbar-wrap push-menu d-none d-lg-flex">
                     <ul className="navigation">
                       <li className=" menu-item-has-children">
-                        <NavLink to="/index-2">Home</NavLink>
+                        <NavLink to="/">Home</NavLink>
                         {/* <ul className="submenu ">
                               <li ><Link to="/">Home One</Link></li>
-                              <li><Link to="/index-2">Home Two</Link></li>
+                              <li><Link to="/">Home Two</Link></li>
                               <li><Link to="/index-3">Home Three</Link></li>
                               <li ><Link to="/index-4">Home Four</Link></li>
                               <li><Link to="/index-5">Home Five</Link></li>
@@ -157,7 +157,7 @@ function HeaderOne() {
                         <NavLink to="/community">Community</NavLink>
                       </li> */}
                       <li>
-                        <NavLink to="/index-2">Store</NavLink>
+                        {/* <NavLink to="/">Store</NavLink> */}
                         {/* <NavLink to="/shop">Store</NavLink> */}
                       </li>
                       {/* <li className=" menu-item-has-children">
@@ -172,7 +172,7 @@ function HeaderOne() {
                         </ul>
                       </li> */}
                       <li>
-                        <NavLink to="/index-2">contact</NavLink>
+                        <NavLink to="/contact">contact</NavLink>
                         {/* <NavLink to="/contact">contact</NavLink> */}
                       </li>
                     </ul>
@@ -181,14 +181,14 @@ function HeaderOne() {
                   <div className="header-action">
                     <ul>
                       <li className="header-shop-cart">
-                        <a href="/index-2">
+                        <a href="/">
                           <i className="fas fa-shopping-basket" />
                           <span>0</span>
                         </a>
                         <ul className="minicart">
                           <li className="d-flex align-items-start">
                             <div className="cart-img">
-                              <a href="/index-2">
+                              <a href="/">
                                 <img
                                   src="assets/img/product/cart_p01.jpg"
                                   alt=""
@@ -197,7 +197,7 @@ function HeaderOne() {
                             </div>
                             <div className="cart-content">
                               <h4>
-                                <a href="/index-2">Xbox One Controller</a>
+                                <a href="/">Xbox One Controller</a>
                               </h4>
                               <div className="cart-price">
                                 <span className="new">$229.9</span>
@@ -207,7 +207,7 @@ function HeaderOne() {
                               </div>
                             </div>
                             <div className="del-icon">
-                              <a href="/index-2">
+                              <a href="/">
                                 <i className="far fa-trash-alt" />
                               </a>
                             </div>
@@ -220,8 +220,8 @@ function HeaderOne() {
                           </li>
                           <li>
                             <div className="checkout-link">
-                              <Link to="/index-2">Shopping Cart</Link>
-                              <a className="red-color" href="/index-2">
+                              <Link to="/">Shopping Cart</Link>
+                              <a className="red-color" href="/">
                                 Checkout
                               </a>
                             </div>
@@ -230,7 +230,7 @@ function HeaderOne() {
                       </li>
                       <li className="header-search">
                         <a
-                          href="/index-2"
+                          href="/"
                           data-toggle="modal"
                           data-target="#search-modal"
                         >
@@ -247,7 +247,7 @@ function HeaderOne() {
                     <i className="fas fa-times" />
                   </div>
                   <div className="nav-logo">
-                    <Link to="/index-2">
+                    <Link to="/">
                       <img src="assets/img/logo/logo.png" alt="" title="true" />
                     </Link>
                   </div>
@@ -255,27 +255,27 @@ function HeaderOne() {
                   <div className="social-links">
                     <ul className="clearfix">
                       <li>
-                        <a href="/index-2">
+                        <a href="/">
                           <span className="fab fa-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="/index-2">
+                        <a href="/">
                           <span className="fab fa-facebook-square" />
                         </a>
                       </li>
                       <li>
-                        <a href="/index-2">
+                        <a href="/">
                           <span className="fab fa-pinterest-p" />
                         </a>
                       </li>
                       <li>
-                        <a href="/index-2">
+                        <a href="/">
                           <span className="fab fa-instagram" />
                         </a>
                       </li>
                       <li>
-                        <a href="/index-2">
+                        <a href="/">
                           <span className="fab fa-youtube" />
                         </a>
                       </li>
