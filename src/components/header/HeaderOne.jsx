@@ -99,14 +99,14 @@ function HeaderOne() {
                         </p>
                       </div>
                     </li>
-                    <li>
+                    {/* <li>
                       <div className="header-user-login">
                         <a href="/">
                           <i className="fas fa-user" />
                           Login
                         </a>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
